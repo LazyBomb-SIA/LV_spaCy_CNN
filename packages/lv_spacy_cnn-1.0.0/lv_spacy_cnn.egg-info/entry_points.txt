@@ -1,0 +1,2 @@
+[spacy_models]
+lv_spacy_cnn = lv_spacy_cnn
