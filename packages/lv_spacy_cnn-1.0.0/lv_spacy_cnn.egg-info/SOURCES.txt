@@ -1,3 +1,5 @@
+LICENSE
+LICENSES_SOURCES
 MANIFEST.in
 README.md
 meta.json
@@ -10,6 +12,8 @@ lv_spacy_cnn.egg-info/dependency_links.txt
 lv_spacy_cnn.egg-info/entry_points.txt
 lv_spacy_cnn.egg-info/not-zip-safe
 lv_spacy_cnn.egg-info/top_level.txt
+lv_spacy_cnn/lv_spacy_cnn-1.0.0/LICENSE
+lv_spacy_cnn/lv_spacy_cnn-1.0.0/LICENSES_SOURCES
 lv_spacy_cnn/lv_spacy_cnn-1.0.0/README.md
 lv_spacy_cnn/lv_spacy_cnn-1.0.0/config.cfg
 lv_spacy_cnn/lv_spacy_cnn-1.0.0/meta.json
