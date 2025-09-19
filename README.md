@@ -63,6 +63,14 @@ The model was trained on the **Latvian UD Treebank v2.16**, which is derived fro
   - State Research Programme "Research on Modern Latvian Language and Development of Language Technology" (Grant No. VPP-LETONIKA-2021/1-0006)  
 
 ---
+## Special Thanks
+Special Thanks to all contributors who participated in the Beta test and espically those who provided valuable feedback to this project.
+
+- Zhen Pan (developer)
+- Fengdi Huang (developer)
+- 
+
+---
 
 ## License
 
