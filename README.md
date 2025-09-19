@@ -34,7 +34,7 @@ It includes the following components:
 
 **Model type:** spaCy CNN Pipeline
 **Language:** Latvian (lv)  
-**Recommended hardware:** CPU for small-scale use, GPU recommended for faster training  
+**Recommended hardware:** CPU for small-scale use, GPU recommended for faster inference.
 
 ---
 
