@@ -12,16 +12,16 @@ metrics:
 - las
 ---
 
-# Latvian SpaCy Model: lv_roberta_large
+# Latvian SpaCy Model: lv_spaCy_CNN
 
 Hugging Face Repo
-➡️ https://huggingface.co/JesseHuang922/lv_roberta_large
+➡️ https://huggingface.co/JesseHuang922/lv_spaCy_CNN
 
 ---
 
 ## Overview
 
-This is a **spaCy transformer-based pipeline for Latvian**, built with the **spaCy Tok2Vec CNN backbone**.  
+This is a **spaCy pipeline for Latvian**, built with the **spaCy Tok2Vec CNN backbone**.  
 
 It includes the following components:  
 
