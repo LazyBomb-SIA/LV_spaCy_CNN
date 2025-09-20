@@ -14,8 +14,8 @@ metrics:
 
 # Latvian SpaCy Model: lv_spaCy_CNN
 
-Hugging Face Repo
-➡️ https://huggingface.co/JesseHuang922/lv_spaCy_CNN
+## Hugging Face Repo
+https://huggingface.co/JesseHuang922/lv_spaCy_CNN
 
 ---
 
