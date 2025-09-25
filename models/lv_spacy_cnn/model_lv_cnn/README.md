@@ -12,16 +12,16 @@ metrics:
 - las
 ---
 
-# Latvian SpaCy Model: lv_roberta_large
+# Latvian SpaCy Model: lv_spaCy_CNN
 
-GitHub Repo
-➡️ https://github.com/LazyBomb-SIA/LV_spaCy_CNN
+## Hugging Face Repo
+https://huggingface.co/JesseHuang922/lv_spaCy_CNN
 
 ---
 
 ## Overview
 
-This is a **spaCy transformer-based pipeline for Latvian**, built with the **spaCy Tok2Vec CNN backbone**.  
+This is a **spaCy pipeline for Latvian**, built with the **spaCy Tok2Vec CNN backbone**.  
 
 It includes the following components:  
 
@@ -34,7 +34,7 @@ It includes the following components:
 
 **Model type:** spaCy CNN Pipeline
 **Language:** Latvian (lv)  
-**Recommended hardware:** CPU for small-scale use, GPU recommended for faster training  
+**Recommended hardware:** CPU for small-scale use, GPU recommended for faster inference.
 
 ---
 
@@ -61,6 +61,12 @@ The model was trained on the **Latvian UD Treebank v2.16**, which is derived fro
   - State Research Programme "National Identity"  
   - State Research Programme "Digital Resources for the Humanities" (Grant No. VPP-IZM-DH-2020/1-0001)  
   - State Research Programme "Research on Modern Latvian Language and Development of Language Technology" (Grant No. VPP-LETONIKA-2021/1-0006)  
+
+---
+## Special Thanks
+Special Thanks to all contributors who participated in the Beta test and espically those who provided valuable feedback
+
+**The list is waiting**
 
 ---
 
@@ -126,6 +132,26 @@ The following Python packages are required to run the Latvian XLM-RoBERTa spaCy 
 | **safetensors**        | 0.6.2           | Secure tensor storage for transformer weights                      | 
 | **huggingface-hub**    | 0.34.4          | Download and manage the model files from the Hugging Face Hub      |
 
+## Optional but recommended 
+| Package                | Minimum Version | Notes                                                                                  | 
+| ---------------------- | --------------- | -------------------------------------------------------------------------------------- | 
+| **hf-xet**             | 1.1.10          | if you need to download or upload large files from the Hugging Face Hub and use the Xet storage backend     |
+
+## Install all dependencies with just one command line:
+
+```bash
+pip install \
+spacy>=3.8.7 \
+spacy-transformers>=1.3.9 \
+transformers>=4.49.0 \
+torch>=2.8.0 \
+tokenizers>=0.21.4 \
+safetensors>=0.6.2 \
+huggingface-hub>=0.34.4 \
+hf-xet>=1.1.10
+```
+
+## Example Code
 
 ```python
 import spacy

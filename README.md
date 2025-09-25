@@ -23,6 +23,18 @@ https://huggingface.co/JesseHuang922/lv_spaCy_CNN
 
 This is a **spaCy pipeline for Latvian**, built with the **spaCy Tok2Vec CNN backbone**.  
 
+**Performance Comparison**
+
+| Model        | POS    | Tag    | Morph  | UAS    | LAS    | Lemma Acc | Summary (equal weights)   |
+| ------------ | ------ | ------ | ------ | ------ | ------ | --------- | ------ |
+| spaCy (this model) | 0.9457 | 0.8665 | 0.9046 | 0.8076 | 0.7509 | 0.8203    | 91.58% |
+| Stanza       | 0.9688 | 0.8987 | 0.9449 | 0.8791 | 0.8354 | 0.9539    | 91.35% |
+| UDPipe       | 0.9207 | 0.7960 | 0.3403 | 0.0791 | 0.0660 | 0.8911    | 51.55% |
+
+Details please check cell 12 and 13 here: 
+
+https://github.com/LazyBomb-SIA/LV_spaCy_CNN/blob/main/lv_spacy_cnn.ipynb
+
 It includes the following components:  
 
 - **Tok2Vec** (spaCy Tok2Vec CNN)
